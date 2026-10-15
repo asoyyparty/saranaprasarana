@@ -54,7 +54,7 @@ $listUsers = mysqli_query($conn, "SELECT * FROM users WHERE role != 'superadmin'
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Manajemen User - Sistem Sarana Prasarana</title>
-  <link rel="icon" type="image/png" href="assets/images/cba.png">
+  <link rel="icon" type="image/png" href="assets/images/sarana-icon-192.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -90,7 +90,8 @@ $listUsers = mysqli_query($conn, "SELECT * FROM users WHERE role != 'superadmin'
 
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#1e3a8a">
-    <link rel="apple-touch-icon" href="assets/images/cba.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/apple-touch-icon.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 </head>

@@ -1,18 +1,24 @@
-const CACHE_NAME = 'sarpras-cache-v1';
+const CACHE_NAME = 'sarpras-cache-v2';
 const urlsToCache = [
-  '/',
-  '/index.php',
-  '/assets/images/cba.png',
-  '/assets/css/style.css',
-  '/assets/css/mobile_view.css'
+  './',
+  'index.php',
+  'manifest.json',
+  'assets/images/sarana-icon-192.png',
+  'assets/images/sarana-icon-512.png',
+  'assets/images/sarana-icon.png',
+  'assets/images/apple-touch-icon.png',
+  'assets/images/cba.png',
+  'assets/css/style.css',
+  'assets/css/mobile_view.css'
 ];
 
 // Install Service Worker
 self.addEventListener('install', event => {
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => {
-        console.log('Opened cache');
+        console.log('Opened cache', CACHE_NAME);
         return cache.addAll(urlsToCache);
       })
   );
@@ -23,7 +29,6 @@ self.addEventListener('fetch', event => {
   event.respondWith(
     caches.match(event.request)
       .then(response => {
-        // Cache hit - return response
         if (response) {
           return response;
         }
@@ -44,6 +49,6 @@ self.addEventListener('activate', event => {
           }
         })
       );
-    })
+    }).then(() => self.clients.claim())
   );
 });

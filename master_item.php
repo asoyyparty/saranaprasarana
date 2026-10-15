@@ -160,7 +160,7 @@ $items = mysqli_query($conn, "SELECT * FROM master_item WHERE modul='$modulFilte
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sarana Prasarana - Master Item Pengecekan</title>
-  <link rel="icon" type="image/png" href="assets/images/cba.png">
+  <link rel="icon" type="image/png" href="assets/images/sarana-icon-192.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a404219d80.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

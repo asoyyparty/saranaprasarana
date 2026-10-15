@@ -106,8 +106,9 @@ $conn->close();
 
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#1e3a8a">
-    <link rel="apple-touch-icon" href="assets/images/cba.png">
-    <link rel="icon" type="image/png" href="assets/images/cba.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="assets/images/sarana-icon-192.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 </head>

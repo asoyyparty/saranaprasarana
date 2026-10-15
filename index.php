@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Sistem Sarana Prasarana</title>
-    <link rel="icon" type="image/png" href="assets/images/cba.png">
+    <link rel="icon" type="image/png" href="assets/images/sarana-icon-192.png">
     <meta name="description" content="Sistem Perawatan APAR - Kartu Riwayat Sarana Prasarana">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a404219d80.js" crossorigin="anonymous"></script>
@@ -155,7 +155,8 @@
 
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#1e3a8a">
-    <link rel="apple-touch-icon" href="assets/images/cba.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/apple-touch-icon.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 </head>
